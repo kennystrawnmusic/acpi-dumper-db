@@ -1,0 +1,35 @@
+/*
+ * Intel ACPI Component Architecture
+ * AML/ASL+ Disassembler version 20221020 (64-bit version)
+ * Copyright (c) 2000 - 2022 Intel Corporation
+ * 
+ * Disassembly of MSDM.bin, Thu Apr  6 17:33:32 2023
+ *
+ * ACPI Data Table [MSDM]
+ *
+ * Format: [HexOffset DecimalOffset ByteLength]  FieldName : FieldValue (in hex)
+ */
+
+[000h 0000 004h]                   Signature : "MSDM"    [Microsoft Data Management Table]
+[004h 0004 004h]                Table Length : 00000055
+[008h 0008 001h]                    Revision : 03
+[009h 0009 001h]                    Checksum : 7F
+[00Ah 0010 006h]                      Oem ID : "LENOVO"
+[010h 0016 008h]                Oem Table ID : "CB-01   "
+[018h 0024 004h]                Oem Revision : 00000002
+[01Ch 0028 004h]             Asl Compiler ID : "PTEC"
+[020h 0032 004h]       Asl Compiler Revision : 00000002
+
+[024h 0036 031h] Software Licensing Structure : 4D 53 44 4D 55 00 00 00 03 7F 4C 45 4E 4F 56 4F /* MSDMU.....LENOVO */\
+/* 034h 0052  16 */                            43 42 2D 30 31 20 20 20 02 00 00 00 50 54 45 43 /* CB-01   ....PTEC */\
+/* 044h 0068  16 */                            02 00 00 00 01 00 00 00 00 00 00 00 01 00 00 00 /* ................ */\
+/* 054h 0084   1 */                            00                                              /* . */\
+
+Raw Table Data: Length 85 (0x55)
+
+    0000: 4D 53 44 4D 55 00 00 00 03 7F 4C 45 4E 4F 56 4F  // MSDMU.....LENOVO
+    0010: 43 42 2D 30 31 20 20 20 02 00 00 00 50 54 45 43  // CB-01   ....PTEC
+    0020: 02 00 00 00 01 00 00 00 00 00 00 00 01 00 00 00  // ................
+    0030: 00 00 00 00 1D 00 00 00 4E 47 38 33 37 2D 58 57  // ........NG837-XW
+    0040: 52 4D 42 2D 50 51 32 52 56 2D 43 50 34 33 32 2D  // RMB-PQ2RV-CP432-
+    0050: 36 4A 46 37 44                                   // 6JF7D
